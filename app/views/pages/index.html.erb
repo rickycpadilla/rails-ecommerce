@@ -1,2 +1,9 @@
 <p>Profile For:</p>
 <%= current_user.first_name || current_user.email %>
+
+<tbody>
+  <tr>
+    <td><%= current_user.first_name %></td>
+    <td><%= current_user.last_name %></td>
+  </tr>
+</tbody>

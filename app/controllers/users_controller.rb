@@ -1,6 +1,9 @@
 class UsersController < ApplicationController
   before_action :authenticate_user!
 
+  
+
+
 
   def hunt
     if params[:search_term]
